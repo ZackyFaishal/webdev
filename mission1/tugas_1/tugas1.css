@@ -1,0 +1,38 @@
+/* Nama  : Zacky Faishal Abror
+NIM   : 211524031
+Kelas : 3A D4 Teknik Informatika 
+        TASK 1 */
+.item1 { grid-area: biruTua; background-color: #0070C0; color: black; }
+ .item2 { grid-area: hitam; background-color: #000000;color: white;  }
+ .item3 { grid-area: coklat; background-color: #806000;color: white;}
+ .item4 { grid-area: putih; background-color: #FFFFFF;}
+ .item5 { grid-area: ping; background-color:pink;}
+ .item6 { grid-area: kuning; background-color: #FFFF00;}
+ .item7 { grid-area: ungu; background-color: purple; color: white;;}
+ .item8 { grid-area: biru; background-color: blue;}
+ .item9 { grid-area: merah; background-color: red; color: white;}
+ .item10 { grid-area: hijau; background-color: green; }
+ .item11 { grid-area: orang; background-color: orange; }
+ .item12 { grid-area: abu; background-color: grey; }
+ .grid-container {
+   display: grid;
+   grid-template-areas:
+     'biruTua biruTua hitam hitam hitam hitam'
+     'biruTua biruTua coklat coklat putih ping'
+     'biruTua biruTua coklat coklat putih biru'
+     'kuning kuning ungu ungu putih biru'
+     'merah merah ungu ungu abu abu'
+     'hijau hijau orang orang abu abu';
+     gap : 0px;
+   padding : 5px;
+   grid-auto-rows: minmax(115px,auto);
+ }
+ 
+ .grid-container > div {
+   font-family: sans-serif;
+   font-size: 30px;
+   display: flex;
+   text-align: center;
+   justify-content: center;
+   align-items: center;
+ }

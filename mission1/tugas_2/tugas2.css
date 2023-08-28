@@ -1,0 +1,130 @@
+/* Nama  : Zacky Faishal Abror
+NIM   : 211524031
+Kelas : 3A D4 Teknik Informatika 
+        TASK 2 */
+
+/* HEADER*/
+.container-bg{
+    background-color: #f3f4f6;
+}
+.container-margin{
+    margin-left: 74px;
+    margin-right: 74px;
+    font-family: sans-serif;
+}
+.navigation-bar{
+    padding: 10px;
+}
+
+.header{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.navbar a{
+    font-size: 18px;
+    color: #949EB2;
+    text-decoration: none;
+    margin-left: 60px;
+    margin-bottom: 60px;
+}
+
+/* TITLE*/
+.title h1{
+    font-family: serif;
+    font-size: 60px;
+}
+
+.title span{
+    color: #DE3F1C;
+    font-weight: bold;
+    font-size: 60px;
+}
+
+.description{
+    padding-left: 218px;
+    padding-right: 218px;
+    font-size: 22px;
+    color: #778298;
+}
+
+/* SEARCHBAR*/
+.searchbar{
+    padding-top: 32px;
+    padding-bottom: 32px;
+    margin-left: 311px;
+    margin-right: 311px;
+}
+
+.searchbar input{
+    width : 438.64;
+    height: 52px;
+}
+
+.searchbar button{
+    color: white;
+     width: 117px;
+     background: #65d777;
+}
+
+/* INFORMATION*/
+.info{
+    margin-left: 16px;
+    margin-right: 16px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.info h4{
+    margin-top: 23px;
+    margin-bottom: 18px;
+}
+
+.info span{
+    font-size: 18px;
+}
+
+/* INSTRUCTOR*/
+.instructor-margin{
+    margin-top: 64px;
+    margin-bottom: 17px;
+}
+
+.instructor-margin h2{
+    color: #091836;
+    font-family: serif;
+    font-size: 50px;
+    font-weight: bold;
+
+}
+
+.people-name{
+    font-size: 26px;
+    color: #091836;
+}
+.people-description{
+    color: #778298;
+}
+
+/* JOIN GAME*/
+.join-margin{
+    margin-top: 64px;
+    margin-bottom: 64px;
+}
+
+.join-square{
+    padding: 32px;
+    background-color: #F3F4F6;
+    border-radius: 3px;
+    width: 590px;
+    height: 195px;
+}
+
+.join-searchbar button{
+    color: white;
+    width: 117px;
+    background: #65d777;
+}
