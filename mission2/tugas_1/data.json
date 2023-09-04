@@ -1,0 +1,58 @@
+[
+{
+    "id":"B1",
+    "name":"POLO SHIRT",
+    "description":"Kemeja yang elegan",
+    "price":10000,
+    "img":"images/polo.jpg"
+    },
+    {
+        "id":"B2",
+        "name":"KOKO SHIRT",
+        "description":"Koko untuk lebaran mu",
+        "price":150000,
+        "img":"images/koko.jpg"
+    },
+    {
+        "id":"B3",
+        "name":"CARDIGAN",
+        "description":"Cardigan mantap pisan",
+        "price":105000,
+        "img":"images/cardigan.jpg" 
+    },
+    {
+        "id": "B4",
+        "name":"CHINO",
+        "description":"Chino sangat bagus",
+        "price":100000,
+        "img":"images/chino.jpg"
+    },
+    {
+        "id" : "B5",
+        "name":"JEANS",
+        "description":"awas ada jeans xixi",
+        "price":60000,
+        "img":"images/jeans.jpg"
+    },
+    {
+        "id" : "B6",
+        "name":"SARUNG",
+        "description":"Untuk perang sarung",
+        "price":80000,
+        "img":"images/sarung.jpg"
+    },
+    {
+        "id" : "B7",
+        "name":"SWEATER",
+        "description":"Pakai saat dingin",
+        "price":95000,
+        "img":"images/sweater.jpg"
+    },
+    {
+        "id" : "B8",
+        "name":"PAJAMA",
+        "description":"Untuk bobo",
+        "price":45000,
+        "img":"images/pajama.jpg"
+    }
+]

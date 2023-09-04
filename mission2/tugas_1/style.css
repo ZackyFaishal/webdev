@@ -1,0 +1,94 @@
+/* Nama  : Zacky Faishal Abror
+NIM   : 211524031
+Kelas : 3A D4 Teknik Informatika 
+        TASK 1 */
+/* HEADER*/
+.container-bg{
+    background-color: #f3f4f6;
+}
+.container-margin{
+    margin-left: 74px;
+    margin-right: 74px;
+    font-family: sans-serif;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+
+.header{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.cart{
+    background-color: #000080;
+    color: white;
+    padding: 5px;
+    font-size: 30px;
+    border-radius:4px;
+
+}
+
+.shop{
+    display: grid;
+    grid-template-columns:repeat(4,300px);
+    gap: 100px;
+    justify-content: center;
+}
+
+.item{
+    border:1px solid #212529;
+    border-radius: 4px;
+}
+
+.button-container {
+    justify-content: center; /* Membuat semua elemen di tengah horizontal */
+    align-items: center; /* Membuat semua elemen di tengah vertikal */
+    gap: 1px; /* Jarak antara elemen-elemen di dalam kontainer */
+}
+
+.button {
+    display: flex;
+    align-items: center; /* Menengahkan tombol tambah dan kurang di dalamnya */
+    gap: 2px; /* Jarak antara tombol tambah, input, dan tombol kurang */
+}
+
+.quantity{
+    width: 130px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.shopCart{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.margin-invoice{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.invoice-margin{
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+/* TITLE*/
+.title h1{
+    font-family: serif;
+    font-size: 60px;
+}
+
+.title span{
+    color: #DE3F1C;
+    font-weight: bold;
+    font-size: 60px;
+}
